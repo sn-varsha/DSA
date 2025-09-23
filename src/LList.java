@@ -8,9 +8,12 @@ public class LList {
 
         nums.add(5);
         nums.add(9);
-
-//        nums.addFirst(6);
         nums.add(6);
+
+        nums.addFirst(7);
+
+        nums.delete(9);
+
 //        System.out.println(nums.get(2));
 //        nums.peek();
 //
